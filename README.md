@@ -5,7 +5,8 @@ Please enter correct password for flag:
 
 এইটা ক্র্যাক করতে এই  Exploit - Brute Force  ব্যাবহার করে
 
-''' 
+```bash 
+
 
 import subprocess
 from subprocess import Popen as p
@@ -21,4 +22,4 @@ for i in range(len(pos_pw_list)):
 
 print(pos_pw_list[i])
 
-'''
+```
